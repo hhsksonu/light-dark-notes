@@ -1,0 +1,39 @@
+/* Default Light Theme */
+body.light {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+body.dark {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* Button Styles */
+.btn-secondary {
+  border: none;
+  transition: background 0.3s ease;
+}
+
+body.dark .btn-secondary {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.light .btn-secondary {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* Card Styles */
+.note-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background: white;
+}
+
+body.dark .note-card {
+  background: #343a40;
+  border-color: #495057;
+  color: #ffffff;
+}
